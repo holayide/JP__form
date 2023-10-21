@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(173deg, rgba(84, 35, 215, 0.24) -20.49%, rgba(31, 61, 167, 0.00) 93.7%);
+    font-family: Inter;
+}
+#container {
+    width: 100%;
+    display: inline-flex;
+    padding-right: 0px;
+    gap: 26px;
+}
+.left {
+    width: 55%;
+}
+.left img {
+    width:  100%;
+    height: 99.5vh;
+    display: block;
+}
+.right {
+    width: 40%;
+    padding: 7rem 0 0;
+}
+.right h2 {
+    color: #222;
+    font-family: Inter;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.sign__up {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+button {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+button img{
+    width: 8%;
+}
+span {
+    padding-left: 1rem;
+}
+.or {
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+form {
+    gap: 60px;
+}
+.input_field {
+    display: flex;
+    flex-direction: column;
+}
+button, input {
+    width: 100%;
+    /* height: 50px; */
+    height: 7vh;
+    border-radius: 15px;
+    padding: 0px 24px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    outline: none;
+    background-color: transparent;
+}
+::placeholder,
+button,
+.or {
+    color: #222;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+    letter-spacing: 0.5px;
+}
+.field {
+    padding-bottom: 1rem;
+}
+#submit {
+    margin-top: 2rem;
+    background: #4C14E2;
+    color: #FFF;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+    letter-spacing: 0.5px;
+}
